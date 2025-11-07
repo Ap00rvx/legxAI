@@ -1,0 +1,25 @@
+services:
+  - type: web
+    name: legal-xai-api
+    env: python
+    runtime: python
+    plan: free
+    region: oregon
+    buildCommand: pip install --upgrade pip setuptools wheel && pip install -r requirements.txt
+    startCommand: uvicorn legal_xai.api:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHONUNBUFFERED
+        value: "1"
+      - key: LEGAL_XAI_INDEX_LIMIT
+        value: "200"
+      # Optional: cache models under project cache
+      - key: HF_HOME
+        value: /opt/render/project/.cache/huggingface
+      - key: SENTENCE_TRANSFORMERS_HOME
+        value: /opt/render/project/.cache/sentence-transformers
+    
+    # Optional persistent disk for model/cache reuse across deploys
+    # disk:
+    #   name: model-cache
+    #   mountPath: /opt/render/project/.cache
+    #   sizeGB: 5

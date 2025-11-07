@@ -1,0 +1,54 @@
+############################
+# Python build artifacts
+############################
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+.pytest_cache/
+.mypy_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+############################
+# Environments & local tooling
+############################
+.venv/
+env/
+venv/
+.env
+.env.*
+
+############################
+# IDE/editor metadata
+############################
+.vscode/
+.idea/
+*.swp
+*.swo
+
+############################
+# OS files
+############################
+.DS_Store
+Thumbs.db
+
+############################
+# Project specific
+############################
+tests/
+JPE_HUMAN_EVAL_*.csv
+
+############################
+# Logs & temp
+############################
+*.log
+*.tmp
+tmp/
+
+
