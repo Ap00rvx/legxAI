@@ -1,0 +1,683 @@
+{"query": "Police arrested my brother without a warrant late at night", "areas": ["criminal"]}
+{"query": "Need anticipatory bail for false 498A complaint", "areas": ["criminal", "family"]}
+{"query": "Dowry harassment and domestic violence case guidance", "areas": ["criminal", "family"]}
+{"query": "Challenge illegal detention via habeas corpus", "areas": ["constitutional", "criminal"]}
+{"query": "Article 19 free speech restriction by local authority", "areas": ["constitutional"]}
+{"query": "Fundamental rights violation during protest dispersal", "areas": ["civil", "constitutional"]}
+{"query": "Neighbour trespassed and damaged boundary wall", "areas": ["civil", "property"]}
+{"query": "Dispute over land sale deed and mutation entry", "areas": ["property"]}
+{"query": "Eviction notice for non payment of rent", "areas": ["civil", "property"]}
+{"query": "Shareholder oppression and mismanagement in a private company", "areas": ["civil", "corporate"]}
+{"query": "Drafting a founders shareholders agreement for startup", "areas": ["corporate"]}
+{"query": "Breach of commercial contract seeking damages", "areas": ["civil", "corporate"]}
+{"query": "Injunction required to stop neighbour construction encroaching", "areas": ["civil", "property"]}
+{"query": "Child custody dispute after separation", "areas": ["family"]}
+{"query": "Maintenance claim and alimony calculation", "areas": ["family"]}
+{"query": "False FIR lodged - quashing process guidance", "areas": ["civil", "criminal"]}
+{"query": "Bail application rejected need next steps", "areas": ["criminal"]}
+{"query": "Remand extension procedures under CrPC", "areas": ["criminal"]}
+{"query": "Seeking writ of mandamus against government inaction", "areas": ["civil", "constitutional"]}
+{"query": "Public interest litigation for river pollution", "areas": ["civil", "constitutional"]}
+{"query": "Partition suit for ancestral property division", "areas": ["civil", "family", "property"]}
+{"query": "Transfer of property to minor beneficiary trust setup", "areas": ["family", "property"]}
+{"query": "High Court appeal against trial court conviction", "areas": ["constitutional", "criminal"]}
+{"query": "Unauthorized construction demolition stay order", "areas": ["civil", "property"]}
+{"query": "Cheating and forgery sections applied in business dispute", "areas": ["corporate", "criminal"]}
+{"query": "Recovery of money lent without written agreement", "areas": ["civil"]}
+{"query": "Specific performance of property sale agreement", "areas": ["civil", "property"]}
+{"query": "Trademark infringement cease and desist letter", "areas": ["civil", "corporate"]}
+{"query": "Company director liability for GST fraud investigation", "areas": ["corporate", "criminal"]}
+{"query": "Sexual harassment complaint at workplace compliance", "areas": ["civil", "corporate", "criminal"]}
+{"query": "Lease renewal terms dispute commercial space", "areas": ["civil", "corporate", "property"]}
+{"query": "Adoption procedure and legal formalities in India", "areas": ["civil", "family"]}
+{"query": "Child support enforcement for non-paying parent", "areas": ["civil", "family"]}
+{"query": "Article 21 right to life violation due to hospital negligence", "areas": ["civil", "constitutional"]}
+{"query": "Cyber fraud in online banking need legal remedy", "areas": ["civil", "corporate", "criminal"]}
+{"query": "Money laundering suspicion and ED summons", "areas": ["corporate", "criminal"]}
+{"query": "Quashing 406 and 420 IPC in cheque bounce related issue", "areas": ["civil", "criminal"]}
+{"query": "Cheque bounce under NI Act prosecution guidance", "areas": ["civil", "corporate", "criminal"]}
+{"query": "GST compliance penalty challenge", "areas": ["civil", "corporate"]}
+{"query": "Wife seeking protection order under domestic violence act", "areas": ["civil", "criminal", "family"]}
+{"query": "Dowry death accusation defense strategy", "areas": ["criminal", "family"]}
+{"query": "Supreme Court appeal filing timeline and procedure", "areas": ["civil", "constitutional", "criminal"]}
+{"query": "High Court writ for service matter promotion denial", "areas": ["civil", "constitutional"]}
+{"query": "Police refusal to register FIR next legal steps", "areas": ["constitutional", "criminal"]}
+{"query": "Startup ESOP plan legal structuring", "areas": ["civil", "corporate"]}
+{"query": "Data breach liability and notification requirements", "areas": ["civil", "corporate", "criminal"]}
+{"query": "Illegal sand mining environmental complaint", "areas": ["civil", "constitutional", "criminal"]}
+{"query": "Compensation claim for motor accident victim", "areas": ["civil", "criminal"]}
+{"query": "Land acquisition compensation dispute Article 300A", "areas": ["civil", "constitutional", "property"]}
+{"query": "Forgery of property documents and police complaint", "areas": ["civil", "criminal", "property"]}
+{"query": "Misappropriation of company funds internal investigation", "areas": ["corporate", "criminal"]}
+{"query": "Breach of confidentiality clause by former employee", "areas": ["civil", "corporate"]}
+{"query": "Transfer pricing compliance advisory", "areas": ["corporate"]}
+{"query": "FIR naming unknown persons need anticipatory bail advice", "areas": ["criminal"]}
+{"query": "Spousal cruelty complaint and evidence collection", "areas": ["criminal", "family"]}
+{"query": "Adverse possession claim defense", "areas": ["civil", "property"]}
+{"query": "Injunction to restrain sale of disputed estate", "areas": ["civil", "family", "property"]}
+{"query": "Liquidation preference clause in investment term sheet", "areas": ["civil", "corporate"]}
+{"query": "Arbitration clause invocation in commercial contract", "areas": ["civil", "corporate"]}
+{"query": "Habeas corpus for missing adult detained by relatives", "areas": ["constitutional", "criminal", "family"]}
+{"query": "Passport seizure by police rights and remedies", "areas": ["constitutional", "criminal"]}
+{"query": "Challenge rejection of RTI application", "areas": ["civil", "constitutional"]}
+{"query": "Matrimonial property distribution after divorce", "areas": ["civil", "family", "property"]}
+{"query": "Criminal defamation complaint vs civil defamation suit difference", "areas": ["civil", "criminal"]}
+{"query": "Setting up a Section 8 NGO compliance queries", "areas": ["civil", "corporate"]}
+{"query": "File warrant refusal by police, next steps", "areas": ["criminal"]}
+{"query": "Damages for loan without written agreement (plaint). Plus acquisition and compliance review for board (esop)", "areas": ["civil", "corporate"]}
+{"query": "Plaint for specific performance in civil court. Plus dispute over land sale deed and revenue entry (tenancy)", "areas": ["civil", "property"]}
+{"query": "Alimony after separation, need legal process", "areas": ["family"]}
+{"query": "Vacate notice for non payment of rent in rented house", "areas": ["property"]}
+{"query": "Dispute over land sale deed and revenue entry. Meanwhile child support dispute with spouse (domestic violence)", "areas": ["family", "property"]}
+{"query": "Dispute over land sale deed and revenue entry (title). Meanwhile child support dispute with in-laws", "areas": ["family", "property"]}
+{"query": "Merger and shareholder rights review for board", "areas": ["corporate"]}
+{"query": "Suit for specific performance in civil court (plaint)", "areas": ["civil"]}
+{"query": "Acquisition and shareholder rights review for board", "areas": ["corporate"]}
+{"query": "Mutual consent divorce after separation, need legal process. Meanwhile high court writ of mandamus for suspension matter (rti)", "areas": ["constitutional", "family"]}
+{"query": "Companies Act penalty challenge and representation (compliance). Also need help with seek habeas corpus against government inaction", "areas": ["constitutional", "corporate"]}
+{"query": "Temporary injunction to stop construction by neighbour (decree)", "areas": ["civil"]}
+{"query": "High Court certiorari for transfer matter", "areas": ["constitutional"]}
+{"query": "Defense for IPC 406 allegation in business dispute", "areas": ["criminal"]}
+{"query": "Defense for 498A allegation in neighbour fight. Also need help with damages for loan without written agreement", "areas": ["civil", "criminal"]}
+{"query": "Merger and compliance review for board", "areas": ["corporate"]}
+{"query": "Defense for IPC 420 allegation in family matter. Also need help with high court certiorari for promotion denial matter (article 14)", "areas": ["constitutional", "criminal"]}
+{"query": "Acquisition and compliance review for board (arbitration)", "areas": ["corporate"]}
+{"query": "Seek certiorari against government inaction (Article 14)", "areas": ["constitutional"]}
+{"query": "Police detained my husband without proper grounds at night (IPC 406)", "areas": ["criminal"]}
+{"query": "Suit for defamation in civil court", "areas": ["civil"]}
+{"query": "Police arrested my husband without warrant at night (remand)", "areas": ["criminal"]}
+{"query": "GST penalty challenge and representation (director)", "areas": ["corporate"]}
+{"query": "Article 21 violation by local authority during seizure. Plus protection under dowry harassment and evidence collection (guardianship)", "areas": ["constitutional", "family"]}
+{"query": "Police arrested my friend without warrant at night (custody)", "areas": ["criminal"]}
+{"query": "Maintenance claim after separation, need legal process (guardianship)", "areas": ["family"]}
+{"query": "Temporary injunction to stop construction by neighbour. Also need help with article 14 violation by local authority during seizure", "areas": ["civil", "constitutional"]}
+{"query": "Defense for IPC 420 allegation in business dispute (police)", "areas": ["criminal"]}
+{"query": "Maintenance claim after separation, need legal process", "areas": ["family"]}
+{"query": "Protection under domestic violence act and evidence collection (guardianship)", "areas": ["family"]}
+{"query": "Companies Act penalty challenge and representation", "areas": ["corporate"]}
+{"query": "File proper grounds refusal by police, next steps", "areas": ["criminal"]}
+{"query": "Damages for loan without written agreement (money recovery)", "areas": ["civil"]}
+{"query": "Damages for loan without written agreement", "areas": ["civil"]}
+{"query": "Suit for specific performance in civil court (injunction)", "areas": ["civil"]}
+{"query": "Injunction to stop illegal construction on boundary", "areas": ["property"]}
+{"query": "Suit for defamation in civil court (plaint)", "areas": ["civil"]}
+{"query": "Need regular bail for IPC 406. Meanwhile injunction to stop illegal construction on boundary", "areas": ["criminal", "property"]}
+{"query": "Protection under dowry harassment and evidence collection (custody)", "areas": ["family"]}
+{"query": "Article 21 violation by local authority during protest", "areas": ["constitutional"]}
+{"query": "Vacate notice for unauthorized construction in rented house", "areas": ["property"]}
+{"query": "Dispute over property documents and revenue entry. Meanwhile recovery of money for services without written agreement", "areas": ["civil", "property"]}
+{"query": "Acquisition and compliance review for board. Meanwhile temporary injunction to stop trespass by neighbour (money recovery)", "areas": ["civil", "corporate"]}
+{"query": "Eviction notice for non payment of rent in rented house (possession)", "areas": ["property"]}
+{"query": "Temporary injunction to stop construction by neighbour. Also need help with police arrested my son without proper grounds at night", "areas": ["civil", "criminal"]}
+{"query": "Seek certiorari against government inaction. Also need help with protection under domestic violence act and evidence collection (domestic violence)", "areas": ["constitutional", "family"]}
+{"query": "Draft founders agreement for startup ESOP plan. Plus defense for ipc 406 allegation in business dispute", "areas": ["corporate", "criminal"]}
+{"query": "Draft shareholders agreement for startup ESOP plan", "areas": ["corporate"]}
+{"query": "Dispute over property documents and revenue entry", "areas": ["property"]}
+{"query": "Article 19 violation by local authority during curfew", "areas": ["constitutional"]}
+{"query": "Mutual consent divorce after separation, need legal process", "areas": ["family"]}
+{"query": "Temporary injunction to stop trespass by neighbour (damages). Plus seek habeas corpus against government inaction (writ)", "areas": ["civil", "constitutional"]}
+{"query": "High Court habeas corpus for transfer matter", "areas": ["constitutional"]}
+{"query": "Seek habeas corpus against government illegal order", "areas": ["constitutional"]}
+{"query": "Temporary injunction to stop construction by neighbour", "areas": ["civil"]}
+{"query": "Child custody dispute with spouse (custody). Meanwhile merger and compliance review for board", "areas": ["corporate", "family"]}
+{"query": "Article 21 violation by local authority during seizure", "areas": ["constitutional"]}
+{"query": "Suit for defamation in civil court. Meanwhile merger and compliance review for board (term sheet)", "areas": ["civil", "corporate"]}
+{"query": "Draft founders agreement for startup ESOP plan. Meanwhile temporary injunction to stop construction by neighbour", "areas": ["civil", "corporate"]}
+{"query": "Article 14 violation by local authority during seizure. Also need help with draft shareholders agreement for startup esop plan (ipo)", "areas": ["constitutional", "corporate"]}
+{"query": "Protection under domestic violence act and evidence collection", "areas": ["family"]}
+{"query": "Dispute over land sale deed and revenue entry (rent)", "areas": ["property"]}
+{"query": "Protection under dowry harassment and evidence collection", "areas": ["family"]}
+{"query": "High Court writ of mandamus for suspension matter", "areas": ["constitutional"]}
+{"query": "Defense for IPC 406 allegation in neighbour fight (money laundering)", "areas": ["criminal"]}
+{"query": "High Court writ of mandamus for suspension matter. Plus dispute over land sale deed and revenue entry", "areas": ["constitutional", "property"]}
+{"query": "Companies Act penalty challenge and representation (arbitration). Meanwhile recovery of money for loan without written agreement", "areas": ["civil", "corporate"]}
+{"query": "Recovery of money for services without written agreement", "areas": ["civil"]}
+{"query": "Defense for IPC 420 allegation in neighbour fight", "areas": ["criminal"]}
+{"query": "Injunction to stop illegal construction on boundary. Plus child custody dispute with spouse", "areas": ["family", "property"]}
+{"query": "Police detained my husband without proper grounds at night. Additionally child custody dispute with spouse (guardianship)", "areas": ["criminal", "family"]}
+{"query": "Injunction to stop illegal construction on boundary. Meanwhile protection under dowry harassment and evidence collection (guardianship)", "areas": ["family", "property"]}
+{"query": "Injunction to stop illegal construction on boundary (sale deed)", "areas": ["property"]}
+{"query": "Recovery of money for loan without written agreement. Also need help with injunction to stop illegal construction on boundary", "areas": ["civil", "property"]}
+{"query": "Mutual consent divorce after separation, need legal process. Additionally vacate notice for non payment of rent in rented house", "areas": ["family", "property"]}
+{"query": "High Court habeas corpus for transfer matter. Meanwhile vacate notice for unauthorized construction in rented house", "areas": ["constitutional", "property"]}
+{"query": "Draft shareholders agreement for startup ESOP plan (shareholder)", "areas": ["corporate"]}
+{"query": "Mutual consent divorce after separation, need legal process. Plus injunction to stop illegal construction on boundary", "areas": ["family", "property"]}
+{"query": "Maintenance claim after separation, need legal process (dowry)", "areas": ["family"]}
+{"query": "Damages for loan without written agreement (plaint)", "areas": ["civil"]}
+{"query": "Merger and shareholder rights review for board (arbitration)", "areas": ["corporate"]}
+{"query": "Seek habeas corpus against government inaction", "areas": ["constitutional"]}
+{"query": "High Court habeas corpus for promotion denial matter (fundamental rights)", "areas": ["constitutional"]}
+{"query": "Article 19 violation by local authority during protest. Also need help with companies act penalty challenge and representation", "areas": ["constitutional", "corporate"]}
+{"query": "High Court writ of mandamus for transfer matter", "areas": ["constitutional"]}
+{"query": "Defense for 498A allegation in business dispute (custody). Meanwhile dispute over land sale deed and revenue entry", "areas": ["criminal", "property"]}
+{"query": "Temporary injunction to stop trespass by neighbour", "areas": ["civil"]}
+{"query": "Stay order to stop trespass by neighbour", "areas": ["civil"]}
+{"query": "Police arrested my son without warrant at night (assault)", "areas": ["criminal"]}
+{"query": "Vacate notice for unauthorized construction in rented house (rent)", "areas": ["property"]}
+{"query": "Damages for services without written agreement", "areas": ["civil"]}
+{"query": "Companies Act penalty challenge and representation. Also need help with recovery of money for loan without written agreement (contract breach)", "areas": ["civil", "corporate"]}
+{"query": "Acquisition and shareholder rights review for board (ESOP)", "areas": ["corporate"]}
+{"query": "Merger and compliance review for board (IPO). Plus damages for loan without written agreement", "areas": ["civil", "corporate"]}
+{"query": "Draft founders agreement for startup ESOP plan (term sheet)", "areas": ["corporate"]}
+{"query": "Article 14 violation by local authority during seizure. Meanwhile maintenance claim after separation, need legal process (divorce)", "areas": ["constitutional", "family"]}
+{"query": "File proper grounds refusal by police, next steps (assault)", "areas": ["criminal"]}
+{"query": "Draft shareholders agreement for startup investment", "areas": ["corporate"]}
+{"query": "Defense for 498A allegation in business dispute", "areas": ["criminal"]}
+{"query": "Acquisition and shareholder rights review for board (compliance)", "areas": ["corporate"]}
+{"query": "Injunction to stop encroachment on boundary. Also need help with gst penalty challenge and representation (gst)", "areas": ["corporate", "property"]}
+{"query": "Damages for loan without written agreement (money recovery). Additionally file warrant refusal by police, next steps", "areas": ["civil", "criminal"]}
+{"query": "Plaint for defamation in civil court", "areas": ["civil"]}
+{"query": "Plaint for defamation in civil court (plaint)", "areas": ["civil"]}
+{"query": "GST penalty challenge and representation (merger)", "areas": ["corporate"]}
+{"query": "File proper grounds refusal by police, next steps (money laundering). Meanwhile dispute over property documents and revenue entry", "areas": ["criminal", "property"]}
+{"query": "Seek habeas corpus against government inaction. Additionally merger and shareholder rights review for board", "areas": ["constitutional", "corporate"]}
+{"query": "Defense for IPC 420 allegation in neighbour fight (cheating). Plus seek habeas corpus against government inaction", "areas": ["constitutional", "criminal"]}
+{"query": "Article 14 violation by local authority during curfew. Meanwhile police arrested my brother without proper grounds at night", "areas": ["constitutional", "criminal"]}
+{"query": "Dispute over property documents and mutation entry. Meanwhile file warrant refusal by police, next steps (arrest)", "areas": ["criminal", "property"]}
+{"query": "File proper grounds refusal by police, next steps. Additionally injunction to stop illegal construction on boundary", "areas": ["criminal", "property"]}
+{"query": "Plaint for specific performance in civil court (injunction). Plus dispute over land sale deed and revenue entry (encroachment)", "areas": ["civil", "property"]}
+{"query": "Protection under dowry harassment and evidence collection. Plus high court habeas corpus for promotion denial matter", "areas": ["constitutional", "family"]}
+{"query": "Child support dispute with in-laws (498A)", "areas": ["family"]}
+{"query": "Suit for specific performance in civil court (money recovery)", "areas": ["civil"]}
+{"query": "Need regular bail for 498A (remand)", "areas": ["criminal"]}
+{"query": "Injunction to stop encroachment on boundary", "areas": ["property"]}
+{"query": "High Court writ of mandamus for promotion denial matter. Also need help with maintenance claim after separation, need legal process", "areas": ["constitutional", "family"]}
+{"query": "Eviction notice for non payment of rent in rented house", "areas": ["property"]}
+{"query": "Need regular bail for IPC 406 (498A). Also need help with acquisition and compliance review for board", "areas": ["corporate", "criminal"]}
+{"query": "High Court certiorari for suspension matter", "areas": ["constitutional"]}
+{"query": "Stay order to stop trespass by neighbour (injunction)", "areas": ["civil"]}
+{"query": "Article 19 violation by local authority during protest", "areas": ["constitutional"]}
+{"query": "Recovery of money for services without written agreement (injunction)", "areas": ["civil"]}
+{"query": "Seek writ of mandamus against government inaction", "areas": ["constitutional"]}
+{"query": "High Court certiorari for transfer matter. Meanwhile protection under dowry harassment and evidence collection (guardianship)", "areas": ["constitutional", "family"]}
+{"query": "Article 19 violation by local authority during seizure. Plus companies act penalty challenge and representation (term sheet)", "areas": ["constitutional", "corporate"]}
+{"query": "Protection under domestic violence act and evidence collection (498A). Plus file warrant refusal by police, next steps", "areas": ["criminal", "family"]}
+{"query": "High Court habeas corpus for promotion denial matter (fundamental rights). Plus draft founders agreement for startup esop plan (term sheet)", "areas": ["constitutional", "corporate"]}
+{"query": "Companies Act penalty challenge and representation (director)", "areas": ["corporate"]}
+{"query": "GST penalty challenge and representation. Additionally alimony after separation, need legal process (custody)", "areas": ["corporate", "family"]}
+{"query": "Plaint for specific performance in civil court. Plus protection under domestic violence act and evidence collection", "areas": ["civil", "family"]}
+{"query": "Seek certiorari against government delay (RTI)", "areas": ["constitutional"]}
+{"query": "Seek writ of mandamus against government illegal order (mandamus)", "areas": ["constitutional"]}
+{"query": "Acquisition and shareholder rights review for board (shareholder)", "areas": ["corporate"]}
+{"query": "Need anticipatory bail for 498A. Plus acquisition and compliance review for board", "areas": ["corporate", "criminal"]}
+{"query": "Suit for specific performance in civil court (contract breach)", "areas": ["civil"]}
+{"query": "Child support dispute with in-laws", "areas": ["family"]}
+{"query": "High Court habeas corpus for promotion denial matter. Additionally merger and compliance review for board (ipo)", "areas": ["constitutional", "corporate"]}
+{"query": "Mutual consent divorce after separation, need legal process. Also need help with gst penalty challenge and representation", "areas": ["corporate", "family"]}
+{"query": "GST penalty challenge and representation", "areas": ["corporate"]}
+{"query": "Child custody dispute with in-laws (498A)", "areas": ["family"]}
+{"query": "Injunction to stop illegal construction on boundary. Plus article 21 violation by local authority during protest (supreme court)", "areas": ["constitutional", "property"]}
+{"query": "Acquisition and compliance review for board. Additionally defense for ipc 420 allegation in business dispute", "areas": ["corporate", "criminal"]}
+{"query": "Child support dispute with spouse (dowry). Also need help with dispute over property documents and mutation entry", "areas": ["family", "property"]}
+{"query": "Police arrested my son without warrant at night", "areas": ["criminal"]}
+{"query": "Seek writ of mandamus against government delay", "areas": ["constitutional"]}
+{"query": "Recovery of money for loan without written agreement (specific performance)", "areas": ["civil"]}
+{"query": "Plaint for defamation in civil court. Additionally article 19 violation by local authority during protest", "areas": ["civil", "constitutional"]}
+{"query": "Stay order to stop construction by neighbour (plaint)", "areas": ["civil"]}
+{"query": "Defense for IPC 420 allegation in family matter", "areas": ["criminal"]}
+{"query": "Need regular bail for IPC 420 (police)", "areas": ["criminal"]}
+{"query": "Need regular bail for IPC 420. Meanwhile injunction to stop illegal construction on boundary", "areas": ["criminal", "property"]}
+{"query": "Protection under dowry harassment and evidence collection. Additionally seek habeas corpus against government delay", "areas": ["constitutional", "family"]}
+{"query": "Injunction to stop encroachment on boundary (rent)", "areas": ["property"]}
+{"query": "High Court writ of mandamus for transfer matter (High Court). Plus defense for 498a allegation in neighbour fight", "areas": ["constitutional", "criminal"]}
+{"query": "Suit for specific performance in civil court (specific performance)", "areas": ["civil"]}
+{"query": "Stay order to stop construction by neighbour (decree)", "areas": ["civil"]}
+{"query": "Need regular bail for IPC 406", "areas": ["criminal"]}
+{"query": "High Court certiorari for promotion denial matter. Meanwhile damages for loan without written agreement", "areas": ["civil", "constitutional"]}
+{"query": "Child support dispute with in-laws. Also need help with seek certiorari against government delay", "areas": ["constitutional", "family"]}
+{"query": "Seek habeas corpus against government delay", "areas": ["constitutional"]}
+{"query": "Recovery of money for services without written agreement (specific performance)", "areas": ["civil"]}
+{"query": "Recovery of money for loan without written agreement", "areas": ["civil"]}
+{"query": "Police arrested my son without proper grounds at night (FIR). Also need help with high court certiorari for transfer matter", "areas": ["constitutional", "criminal"]}
+{"query": "Companies Act penalty challenge and representation (GST). Plus seek writ of mandamus against government inaction (habeas corpus)", "areas": ["constitutional", "corporate"]}
+{"query": "High Court certiorari for promotion denial matter", "areas": ["constitutional"]}
+{"query": "Draft shareholders agreement for startup ESOP plan. Additionally article 21 violation by local authority during curfew", "areas": ["constitutional", "corporate"]}
+{"query": "Damages for loan without written agreement (damages)", "areas": ["civil"]}
+{"query": "Suit for defamation in civil court (specific performance). Additionally dispute over property documents and revenue entry (encroachment)", "areas": ["civil", "property"]}
+{"query": "Eviction notice for unauthorized construction in rented house (possession)", "areas": ["property"]}
+{"query": "Draft founders agreement for startup investment", "areas": ["corporate"]}
+{"query": "Police arrested my husband without proper grounds at night (money laundering). Additionally companies act penalty challenge and representation (gst)", "areas": ["corporate", "criminal"]}
+{"query": "Suit for defamation in civil court (damages). Meanwhile child support dispute with spouse", "areas": ["civil", "family"]}
+{"query": "Suit for specific performance in civil court (decree)", "areas": ["civil"]}
+{"query": "Vacate notice for unauthorized construction in rented house (sale deed)", "areas": ["property"]}
+{"query": "Seek habeas corpus against government inaction. Also need help with child custody dispute with spouse (dowry)", "areas": ["constitutional", "family"]}
+{"query": "Dispute over property documents and mutation entry. Plus draft founders agreement for startup investment", "areas": ["corporate", "property"]}
+{"query": "Merger and compliance review for board. Also need help with injunction to stop illegal construction on boundary", "areas": ["corporate", "property"]}
+{"query": "Dispute over property documents and mutation entry", "areas": ["property"]}
+{"query": "Damages for services without written agreement. Also need help with dispute over property documents and revenue entry (sale deed)", "areas": ["civil", "property"]}
+{"query": "Dispute over property documents and mutation entry (mutation). Also need help with protection under domestic violence act and evidence collection", "areas": ["family", "property"]}
+{"query": "Stay order to stop construction by neighbour (contract breach)", "areas": ["civil"]}
+{"query": "Article 21 violation by local authority during curfew. Meanwhile police arrested my brother without warrant at night", "areas": ["constitutional", "criminal"]}
+{"query": "Recovery of money for services without written agreement (contract breach)", "areas": ["civil"]}
+{"query": "File proper grounds refusal by police, next steps (arrest). Additionally child support dispute with in-laws", "areas": ["criminal", "family"]}
+{"query": "Merger and compliance review for board (IPO). Plus vacate notice for non payment of rent in rented house", "areas": ["corporate", "property"]}
+{"query": "Plaint for specific performance in civil court. Also need help with need anticipatory bail for ipc 420", "areas": ["civil", "criminal"]}
+{"query": "Protection under dowry harassment and evidence collection. Meanwhile seek writ of mandamus against government delay (writ)", "areas": ["constitutional", "family"]}
+{"query": "Suit for defamation in civil court (injunction)", "areas": ["civil"]}
+{"query": "Seek certiorari against government illegal order", "areas": ["constitutional"]}
+{"query": "Article 21 violation by local authority during seizure (Article 19). Plus injunction to stop illegal construction on boundary", "areas": ["constitutional", "property"]}
+{"query": "Draft founders agreement for startup ESOP plan (term sheet). Meanwhile police arrested my friend without warrant at night (theft)", "areas": ["corporate", "criminal"]}
+{"query": "High Court certiorari for promotion denial matter (Supreme Court). Additionally file proper grounds refusal by police, next steps", "areas": ["constitutional", "criminal"]}
+{"query": "Maintenance claim after separation, need legal process (498A)", "areas": ["family"]}
+{"query": "Seek writ of mandamus against government inaction. Additionally companies act penalty challenge and representation (arbitration)", "areas": ["constitutional", "corporate"]}
+{"query": "Need anticipatory bail for IPC 406", "areas": ["criminal"]}
+{"query": "Seek certiorari against government inaction", "areas": ["constitutional"]}
+{"query": "File proper grounds refusal by police, next steps (498A)", "areas": ["criminal"]}
+{"query": "Temporary injunction to stop trespass by neighbour (injunction). Additionally companies act penalty challenge and representation", "areas": ["civil", "corporate"]}
+{"query": "Need anticipatory bail for 498A", "areas": ["criminal"]}
+{"query": "Suit for specific performance in civil court", "areas": ["civil"]}
+{"query": "Seek habeas corpus against government inaction (Supreme Court)", "areas": ["constitutional"]}
+{"query": "Dispute over property documents and revenue entry. Meanwhile recovery of money for loan without written agreement", "areas": ["civil", "property"]}
+{"query": "File proper grounds refusal by police, next steps (assault). Additionally injunction to stop illegal construction on boundary", "areas": ["criminal", "property"]}
+{"query": "Need regular bail for IPC 420 (assault). Additionally high court certiorari for suspension matter", "areas": ["constitutional", "criminal"]}
+{"query": "Article 14 violation by local authority during seizure (Article 14)", "areas": ["constitutional"]}
+{"query": "Defense for IPC 420 allegation in neighbour fight (assault)", "areas": ["criminal"]}
+{"query": "Damages for loan without written agreement (contract breach)", "areas": ["civil"]}
+{"query": "High Court writ of mandamus for suspension matter (fundamental rights)", "areas": ["constitutional"]}
+{"query": "GST penalty challenge and representation (ESOP). Plus seek certiorari against government inaction", "areas": ["constitutional", "corporate"]}
+{"query": "Defense for IPC 420 allegation in family matter. Also need help with dispute over property documents and mutation entry", "areas": ["criminal", "property"]}
+{"query": "Police detained my son without warrant at night", "areas": ["criminal"]}
+{"query": "Police detained my friend without warrant at night", "areas": ["criminal"]}
+{"query": "Protection under domestic violence act and evidence collection. Meanwhile damages for loan without written agreement (contract breach)", "areas": ["civil", "family"]}
+{"query": "Need regular bail for 498A", "areas": ["criminal"]}
+{"query": "Eviction notice for non payment of rent in rented house (eviction)", "areas": ["property"]}
+{"query": "Dispute over land sale deed and revenue entry. Additionally acquisition and compliance review for board (merger)", "areas": ["corporate", "property"]}
+{"query": "Article 19 violation by local authority during protest (Article 19). Meanwhile file proper grounds refusal by police, next steps", "areas": ["constitutional", "criminal"]}
+{"query": "Defense for IPC 406 allegation in neighbour fight. Meanwhile merger and compliance review for board (gst)", "areas": ["corporate", "criminal"]}
+{"query": "Seek certiorari against government illegal order (Article 19)", "areas": ["constitutional"]}
+{"query": "Need anticipatory bail for IPC 406 (police). Additionally merger and compliance review for board", "areas": ["corporate", "criminal"]}
+{"query": "Injunction to stop encroachment on boundary (lease)", "areas": ["property"]}
+{"query": "Recovery of money for loan without written agreement. Meanwhile file proper grounds refusal by police, next steps", "areas": ["civil", "criminal"]}
+{"query": "Draft founders agreement for startup ESOP plan. Plus article 14 violation by local authority during seizure", "areas": ["constitutional", "corporate"]}
+{"query": "Companies Act penalty challenge and representation. Meanwhile recovery of money for loan without written agreement", "areas": ["civil", "corporate"]}
+{"query": "Temporary injunction to stop trespass by neighbour (damages)", "areas": ["civil"]}
+{"query": "Merger and compliance review for board (IPO). Meanwhile high court certiorari for promotion denial matter (article 19)", "areas": ["constitutional", "corporate"]}
+{"query": "Draft shareholders agreement for startup ESOP plan. Additionally stay order to stop construction by neighbour", "areas": ["civil", "corporate"]}
+{"query": "Plaint for specific performance in civil court", "areas": ["civil"]}
+{"query": "Acquisition and compliance review for board. Additionally damages for services without written agreement", "areas": ["civil", "corporate"]}
+{"query": "Protection under domestic violence act and evidence collection (maintenance). Additionally plaint for specific performance in civil court (damages)", "areas": ["civil", "family"]}
+{"query": "Article 21 violation by local authority during curfew (Supreme Court). Also need help with file proper grounds refusal by police, next steps", "areas": ["constitutional", "criminal"]}
+{"query": "Injunction to stop encroachment on boundary. Plus protection under domestic violence act and evidence collection (dowry)", "areas": ["family", "property"]}
+{"query": "Eviction notice for unauthorized construction in rented house (lease). Plus police arrested my brother without proper grounds at night", "areas": ["criminal", "property"]}
+{"query": "Need regular bail for IPC 406 (IPC 420)", "areas": ["criminal"]}
+{"query": "Child custody dispute with spouse", "areas": ["family"]}
+{"query": "Seek certiorari against government inaction. Plus draft founders agreement for startup esop plan", "areas": ["constitutional", "corporate"]}
+{"query": "Seek habeas corpus against government delay (RTI)", "areas": ["constitutional"]}
+{"query": "Plaint for specific performance in civil court. Meanwhile companies act penalty challenge and representation", "areas": ["civil", "corporate"]}
+{"query": "Draft founders agreement for startup investment (shareholder)", "areas": ["corporate"]}
+{"query": "Article 14 violation by local authority during protest", "areas": ["constitutional"]}
+{"query": "Acquisition and shareholder rights review for board (term sheet)", "areas": ["corporate"]}
+{"query": "Defense for 498A allegation in neighbour fight (ED summons)", "areas": ["criminal"]}
+{"query": "Suit for specific performance in civil court (plaint). Plus child support dispute with spouse", "areas": ["civil", "family"]}
+{"query": "Draft shareholders agreement for startup investment (ESOP)", "areas": ["corporate"]}
+{"query": "Protection under domestic violence act and evidence collection (dowry)", "areas": ["family"]}
+{"query": "Suit for defamation in civil court (contract breach)", "areas": ["civil"]}
+{"query": "Draft founders agreement for startup ESOP plan (director)", "areas": ["corporate"]}
+{"query": "High Court writ of mandamus for suspension matter. Additionally acquisition and compliance review for board", "areas": ["constitutional", "corporate"]}
+{"query": "Temporary injunction to stop construction by neighbour (contract breach)", "areas": ["civil"]}
+{"query": "High Court certiorari for promotion denial matter. Also need help with eviction notice for non payment of rent in rented house", "areas": ["constitutional", "property"]}
+{"query": "Mutual consent divorce after separation, need legal process (dowry)", "areas": ["family"]}
+{"query": "Eviction notice for non payment of rent in rented house. Meanwhile temporary injunction to stop trespass by neighbour", "areas": ["civil", "property"]}
+{"query": "High Court habeas corpus for suspension matter. Meanwhile file proper grounds refusal by police, next steps", "areas": ["constitutional", "criminal"]}
+{"query": "Protection under domestic violence act and evidence collection (498A)", "areas": ["family"]}
+{"query": "Police detained my husband without warrant at night (FIR). Meanwhile child custody dispute with in-laws (dowry)", "areas": ["criminal", "family"]}
+{"query": "GST penalty challenge and representation. Also need help with file warrant refusal by police, next steps", "areas": ["corporate", "criminal"]}
+{"query": "File proper grounds refusal by police, next steps (chargesheet)", "areas": ["criminal"]}
+{"query": "Acquisition and compliance review for board (IPO)", "areas": ["corporate"]}
+{"query": "Need anticipatory bail for IPC 420", "areas": ["criminal"]}
+{"query": "Merger and shareholder rights review for board. Also need help with recovery of money for services without written agreement", "areas": ["civil", "corporate"]}
+{"query": "Protection under domestic violence act and evidence collection (divorce)", "areas": ["family"]}
+{"query": "Police arrested my son without warrant at night (chargesheet). Meanwhile companies act penalty challenge and representation", "areas": ["corporate", "criminal"]}
+{"query": "Injunction to stop illegal construction on boundary. Additionally gst penalty challenge and representation", "areas": ["corporate", "property"]}
+{"query": "Draft founders agreement for startup ESOP plan", "areas": ["corporate"]}
+{"query": "Vacate notice for non payment of rent in rented house (sale deed). Meanwhile gst penalty challenge and representation", "areas": ["corporate", "property"]}
+{"query": "Police arrested my husband without proper grounds at night", "areas": ["criminal"]}
+{"query": "Maintenance claim after separation, need legal process (maintenance)", "areas": ["family"]}
+{"query": "Stay order to stop construction by neighbour (injunction)", "areas": ["civil"]}
+{"query": "Defense for IPC 406 allegation in family matter", "areas": ["criminal"]}
+{"query": "Draft shareholders agreement for startup investment (IPO). Additionally protection under domestic violence act and evidence collection", "areas": ["corporate", "family"]}
+{"query": "Defense for IPC 420 allegation in neighbour fight (theft)", "areas": ["criminal"]}
+{"query": "Draft founders agreement for startup ESOP plan (GST). Also need help with dispute over property documents and revenue entry (title)", "areas": ["corporate", "property"]}
+{"query": "High Court certiorari for transfer matter (RTI). Additionally draft shareholders agreement for startup esop plan", "areas": ["constitutional", "corporate"]}
+{"query": "Recovery of money for loan without written agreement (contract breach). Plus protection under dowry harassment and evidence collection", "areas": ["civil", "family"]}
+{"query": "Draft founders agreement for startup investment. Also need help with injunction to stop encroachment on boundary (tenancy)", "areas": ["corporate", "property"]}
+{"query": "Alimony after separation, need legal process (maintenance). Plus seek writ of mandamus against government delay", "areas": ["constitutional", "family"]}
+{"query": "Dispute over property documents and mutation entry (rent)", "areas": ["property"]}
+{"query": "Dispute over land sale deed and mutation entry. Also need help with article 19 violation by local authority during protest (writ)", "areas": ["constitutional", "property"]}
+{"query": "File proper grounds refusal by police, next steps (money laundering)", "areas": ["criminal"]}
+{"query": "Vacate notice for non payment of rent in rented house (title)", "areas": ["property"]}
+{"query": "File warrant refusal by police, next steps (bail)", "areas": ["criminal"]}
+{"query": "Defense for 498A allegation in family matter (assault)", "areas": ["criminal"]}
+{"query": "Stay order to stop construction by neighbour (specific performance). Meanwhile file warrant refusal by police, next steps (warrant)", "areas": ["civil", "criminal"]}
+{"query": "Companies Act penalty challenge and representation. Plus protection under domestic violence act and evidence collection", "areas": ["corporate", "family"]}
+{"query": "Dispute over property documents and mutation entry (possession)", "areas": ["property"]}
+{"query": "Police arrested my friend without warrant at night", "areas": ["criminal"]}
+{"query": "High Court habeas corpus for promotion denial matter (Supreme Court)", "areas": ["constitutional"]}
+{"query": "Suit for specific performance in civil court. Additionally police arrested my friend without proper grounds at night", "areas": ["civil", "criminal"]}
+{"query": "Draft shareholders agreement for startup ESOP plan (merger)", "areas": ["corporate"]}
+{"query": "Dispute over land sale deed and revenue entry (encroachment)", "areas": ["property"]}
+{"query": "Alimony after separation, need legal process (dowry)", "areas": ["family"]}
+{"query": "Stay order to stop construction by neighbour (money recovery). Also need help with draft founders agreement for startup investment (arbitration)", "areas": ["civil", "corporate"]}
+{"query": "Acquisition and compliance review for board", "areas": ["corporate"]}
+{"query": "Merger and shareholder rights review for board (director). Additionally damages for loan without written agreement", "areas": ["civil", "corporate"]}
+{"query": "Dispute over property documents and revenue entry (lease). Plus draft shareholders agreement for startup esop plan (esop)", "areas": ["corporate", "property"]}
+{"query": "Police detained my son without proper grounds at night. Also need help with mutual consent divorce after separation, need legal process", "areas": ["criminal", "family"]}
+{"query": "Defense for IPC 406 allegation in neighbour fight (bail)", "areas": ["criminal"]}
+{"query": "Merger and shareholder rights review for board. Plus police detained my husband without proper grounds at night (warrant)", "areas": ["corporate", "criminal"]}
+{"query": "File proper grounds refusal by police, next steps (cheating). Plus companies act penalty challenge and representation", "areas": ["corporate", "criminal"]}
+{"query": "Maintenance claim after separation, need legal process (custody). Plus acquisition and compliance review for board", "areas": ["corporate", "family"]}
+{"query": "Companies Act penalty challenge and representation (GST)", "areas": ["corporate"]}
+{"query": "Draft shareholders agreement for startup ESOP plan (compliance)", "areas": ["corporate"]}
+{"query": "Dispute over property documents and revenue entry (tenancy)", "areas": ["property"]}
+{"query": "Vacate notice for non payment of rent in rented house. Also need help with protection under domestic violence act and evidence collection", "areas": ["family", "property"]}
+{"query": "High Court habeas corpus for transfer matter. Plus companies act penalty challenge and representation", "areas": ["constitutional", "corporate"]}
+{"query": "Article 14 violation by local authority during protest (writ)", "areas": ["constitutional"]}
+{"query": "File proper grounds refusal by police, next steps. Also need help with draft shareholders agreement for startup esop plan", "areas": ["corporate", "criminal"]}
+{"query": "File warrant refusal by police, next steps (498A)", "areas": ["criminal"]}
+{"query": "Suit for defamation in civil court (decree)", "areas": ["civil"]}
+{"query": "Dispute over property documents and revenue entry (lease). Plus gst penalty challenge and representation", "areas": ["corporate", "property"]}
+{"query": "Dispute over land sale deed and revenue entry (possession)", "areas": ["property"]}
+{"query": "Article 19 violation by local authority during seizure. Plus merger and compliance review for board (arbitration)", "areas": ["constitutional", "corporate"]}
+{"query": "File warrant refusal by police, next steps. Plus protection under domestic violence act and evidence collection (498a)", "areas": ["criminal", "family"]}
+{"query": "Plaint for specific performance in civil court (money recovery). Additionally protection under dowry harassment and evidence collection (divorce)", "areas": ["civil", "family"]}
+{"query": "Dispute over property documents and mutation entry. Meanwhile gst penalty challenge and representation (shareholder)", "areas": ["corporate", "property"]}
+{"query": "Companies Act penalty challenge and representation (term sheet)", "areas": ["corporate"]}
+{"query": "Protection under domestic violence act and evidence collection (custody)", "areas": ["family"]}
+{"query": "Seek habeas corpus against government delay (writ)", "areas": ["constitutional"]}
+{"query": "Temporary injunction to stop trespass by neighbour (specific performance)", "areas": ["civil"]}
+{"query": "Suit for defamation in civil court. Additionally dispute over property documents and mutation entry", "areas": ["civil", "property"]}
+{"query": "Child support dispute with spouse", "areas": ["family"]}
+{"query": "Eviction notice for unauthorized construction in rented house", "areas": ["property"]}
+{"query": "Article 14 violation by local authority during curfew. Also need help with protection under dowry harassment and evidence collection (maintenance)", "areas": ["constitutional", "family"]}
+{"query": "Damages for loan without written agreement (money recovery). Meanwhile high court habeas corpus for promotion denial matter", "areas": ["civil", "constitutional"]}
+{"query": "Protection under domestic violence act and evidence collection (domestic violence). Meanwhile police arrested my son without proper grounds at night", "areas": ["criminal", "family"]}
+{"query": "Stay order to stop construction by neighbour (money recovery)", "areas": ["civil"]}
+{"query": "Article 21 violation by local authority during seizure (mandamus)", "areas": ["constitutional"]}
+{"query": "Defense for IPC 406 allegation in business dispute. Plus companies act penalty challenge and representation", "areas": ["corporate", "criminal"]}
+{"query": "Defense for IPC 420 allegation in family matter (warrant)", "areas": ["criminal"]}
+{"query": "Child support dispute with in-laws (custody)", "areas": ["family"]}
+{"query": "Alimony after separation, need legal process (custody). Additionally suit for defamation in civil court", "areas": ["civil", "family"]}
+{"query": "Need regular bail for IPC 420. Meanwhile plaint for specific performance in civil court", "areas": ["civil", "criminal"]}
+{"query": "Police arrested my son without proper grounds at night (warrant). Meanwhile dispute over land sale deed and mutation entry (title)", "areas": ["criminal", "property"]}
+{"query": "Vacate notice for non payment of rent in rented house (sale deed)", "areas": ["property"]}
+{"query": "Maintenance claim after separation, need legal process (alimony)", "areas": ["family"]}
+{"query": "High Court habeas corpus for transfer matter (habeas corpus)", "areas": ["constitutional"]}
+{"query": "Temporary injunction to stop construction by neighbour. Meanwhile alimony after separation, need legal process (dowry)", "areas": ["civil", "family"]}
+{"query": "File proper grounds refusal by police, next steps (cheating). Plus child support dispute with spouse", "areas": ["criminal", "family"]}
+{"query": "GST penalty challenge and representation (ESOP)", "areas": ["corporate"]}
+{"query": "Police arrested my son without warrant at night. Plus eviction notice for non payment of rent in rented house (sale deed)", "areas": ["criminal", "property"]}
+{"query": "Need regular bail for IPC 406 (police). Also need help with vacate notice for non payment of rent in rented house (encroachment)", "areas": ["criminal", "property"]}
+{"query": "Dispute over land sale deed and mutation entry (tenancy)", "areas": ["property"]}
+{"query": "Need regular bail for IPC 406 (IPC 406)", "areas": ["criminal"]}
+{"query": "Alimony after separation, need legal process. Additionally dispute over property documents and mutation entry (possession)", "areas": ["family", "property"]}
+{"query": "Eviction notice for non payment of rent in rented house (lease)", "areas": ["property"]}
+{"query": "Police arrested my son without proper grounds at night", "areas": ["criminal"]}
+{"query": "Draft founders agreement for startup investment (ESOP)", "areas": ["corporate"]}
+{"query": "Seek habeas corpus against government illegal order (Article 19)", "areas": ["constitutional"]}
+{"query": "Child custody dispute with in-laws. Also need help with need anticipatory bail for 498a", "areas": ["criminal", "family"]}
+{"query": "Damages for services without written agreement (contract breach)", "areas": ["civil"]}
+{"query": "Injunction to stop encroachment on boundary (mutation)", "areas": ["property"]}
+{"query": "Companies Act penalty challenge and representation (director). Meanwhile article 19 violation by local authority during curfew", "areas": ["constitutional", "corporate"]}
+{"query": "Recovery of money for loan without written agreement (plaint). Meanwhile draft founders agreement for startup esop plan", "areas": ["civil", "corporate"]}
+{"query": "Protection under domestic violence act and evidence collection (alimony)", "areas": ["family"]}
+{"query": "Draft shareholders agreement for startup ESOP plan (merger). Also need help with protection under dowry harassment and evidence collection (domestic violence)", "areas": ["corporate", "family"]}
+{"query": "Temporary injunction to stop construction by neighbour (plaint). Additionally seek certiorari against government delay", "areas": ["civil", "constitutional"]}
+{"query": "Alimony after separation, need legal process. Meanwhile high court certiorari for transfer matter (habeas corpus)", "areas": ["constitutional", "family"]}
+{"query": "Seek habeas corpus against government inaction. Meanwhile acquisition and compliance review for board (director)", "areas": ["constitutional", "corporate"]}
+{"query": "Defense for IPC 406 allegation in family matter (chargesheet)", "areas": ["criminal"]}
+{"query": "Defense for IPC 406 allegation in family matter. Plus article 21 violation by local authority during protest (high court)", "areas": ["constitutional", "criminal"]}
+{"query": "Draft shareholders agreement for startup ESOP plan (GST)", "areas": ["corporate"]}
+{"query": "Seek habeas corpus against government illegal order. Meanwhile damages for loan without written agreement (damages)", "areas": ["civil", "constitutional"]}
+{"query": "File proper grounds refusal by police, next steps (arrest)", "areas": ["criminal"]}
+{"query": "Seek writ of mandamus against government illegal order (writ). Additionally draft shareholders agreement for startup investment (director)", "areas": ["constitutional", "corporate"]}
+{"query": "High Court writ of mandamus for suspension matter. Plus file proper grounds refusal by police, next steps", "areas": ["constitutional", "criminal"]}
+{"query": "Dispute over land sale deed and mutation entry. Also need help with child support dispute with in-laws", "areas": ["family", "property"]}
+{"query": "File warrant refusal by police, next steps. Additionally eviction notice for non payment of rent in rented house (title)", "areas": ["criminal", "property"]}
+{"query": "Seek writ of mandamus against government illegal order (High Court)", "areas": ["constitutional"]}
+{"query": "Police arrested my brother without proper grounds at night (arrest). Also need help with seek writ of mandamus against government delay (fundamental rights)", "areas": ["constitutional", "criminal"]}
+{"query": "GST penalty challenge and representation. Additionally high court certiorari for suspension matter (habeas corpus)", "areas": ["constitutional", "corporate"]}
+{"query": "Dispute over land sale deed and revenue entry. Meanwhile suit for specific performance in civil court (injunction)", "areas": ["civil", "property"]}
+{"query": "Defense for IPC 406 allegation in business dispute (FIR)", "areas": ["criminal"]}
+{"query": "Eviction notice for unauthorized construction in rented house (lease)", "areas": ["property"]}
+{"query": "Vacate notice for non payment of rent in rented house (tenancy)", "areas": ["property"]}
+{"query": "Injunction to stop encroachment on boundary. Plus companies act penalty challenge and representation", "areas": ["corporate", "property"]}
+{"query": "Dispute over land sale deed and mutation entry. Additionally recovery of money for services without written agreement", "areas": ["civil", "property"]}
+{"query": "Dispute over land sale deed and mutation entry. Also need help with maintenance claim after separation, need legal process (dowry)", "areas": ["family", "property"]}
+{"query": "Stay order to stop trespass by neighbour. Additionally child support dispute with spouse (guardianship)", "areas": ["civil", "family"]}
+{"query": "Police detained my husband without warrant at night (FIR)", "areas": ["criminal"]}
+{"query": "Injunction to stop illegal construction on boundary (title). Additionally child support dispute with in-laws (custody)", "areas": ["family", "property"]}
+{"query": "Child custody dispute with in-laws (maintenance). Also need help with temporary injunction to stop construction by neighbour", "areas": ["civil", "family"]}
+{"query": "Child support dispute with spouse (custody)", "areas": ["family"]}
+{"query": "GST penalty challenge and representation (compliance)", "areas": ["corporate"]}
+{"query": "Vacate notice for non payment of rent in rented house. Also need help with recovery of money for services without written agreement", "areas": ["civil", "property"]}
+{"query": "Plaint for defamation in civil court (money recovery). Meanwhile need regular bail for ipc 406", "areas": ["civil", "criminal"]}
+{"query": "Protection under dowry harassment and evidence collection. Plus police arrested my husband without warrant at night", "areas": ["criminal", "family"]}
+{"query": "Child support dispute with spouse (dowry). Additionally seek habeas corpus against government illegal order", "areas": ["constitutional", "family"]}
+{"query": "Vacate notice for unauthorized construction in rented house (eviction). Meanwhile seek certiorari against government inaction", "areas": ["constitutional", "property"]}
+{"query": "Dispute over land sale deed and mutation entry (lease). Also need help with need regular bail for 498a", "areas": ["criminal", "property"]}
+{"query": "Police detained my friend without proper grounds at night", "areas": ["criminal"]}
+{"query": "Recovery of money for loan without written agreement. Plus draft shareholders agreement for startup esop plan", "areas": ["civil", "corporate"]}
+{"query": "Child custody dispute with in-laws (divorce)", "areas": ["family"]}
+{"query": "Injunction to stop illegal construction on boundary. Meanwhile protection under dowry harassment and evidence collection", "areas": ["family", "property"]}
+{"query": "Seek writ of mandamus against government inaction (High Court)", "areas": ["constitutional"]}
+{"query": "Dispute over property documents and revenue entry (title)", "areas": ["property"]}
+{"query": "Plaint for specific performance in civil court (decree)", "areas": ["civil"]}
+{"query": "Damages for loan without written agreement. Also need help with injunction to stop illegal construction on boundary", "areas": ["civil", "property"]}
+{"query": "Need regular bail for IPC 406 (498A). Meanwhile recovery of money for services without written agreement", "areas": ["civil", "criminal"]}
+{"query": "Dispute over land sale deed and revenue entry", "areas": ["property"]}
+{"query": "Companies Act penalty challenge and representation (director). Plus police arrested my son without warrant at night (498a)", "areas": ["corporate", "criminal"]}
+{"query": "Police arrested my son without warrant at night. Also need help with injunction to stop illegal construction on boundary", "areas": ["criminal", "property"]}
+{"query": "Seek certiorari against government delay (High Court)", "areas": ["constitutional"]}
+{"query": "Article 14 violation by local authority during seizure (Supreme Court)", "areas": ["constitutional"]}
+{"query": "Injunction to stop illegal construction on boundary. Also need help with companies act penalty challenge and representation", "areas": ["corporate", "property"]}
+{"query": "Damages for services without written agreement (damages)", "areas": ["civil"]}
+{"query": "Vacate notice for unauthorized construction in rented house. Additionally child support dispute with in-laws", "areas": ["family", "property"]}
+{"query": "Child support dispute with spouse (maintenance)", "areas": ["family"]}
+{"query": "Need regular bail for IPC 420", "areas": ["criminal"]}
+{"query": "Merger and compliance review for board. Additionally child custody dispute with spouse (custody)", "areas": ["corporate", "family"]}
+{"query": "High Court habeas corpus for promotion denial matter (fundamental rights). Also need help with protection under domestic violence act and evidence collection", "areas": ["constitutional", "family"]}
+{"query": "Police detained my husband without proper grounds at night (warrant)", "areas": ["criminal"]}
+{"query": "Companies Act penalty challenge and representation (arbitration). Additionally damages for loan without written agreement", "areas": ["civil", "corporate"]}
+{"query": "Protection under domestic violence act and evidence collection (divorce). Meanwhile draft founders agreement for startup esop plan (merger)", "areas": ["corporate", "family"]}
+{"query": "Defense for 498A allegation in neighbour fight (theft)", "areas": ["criminal"]}
+{"query": "Protection under dowry harassment and evidence collection (guardianship)", "areas": ["family"]}
+{"query": "High Court certiorari for transfer matter (fundamental rights). Meanwhile stay order to stop trespass by neighbour", "areas": ["civil", "constitutional"]}
+{"query": "Temporary injunction to stop trespass by neighbour. Additionally need anticipatory bail for 498a", "areas": ["civil", "criminal"]}
+{"query": "Acquisition and shareholder rights review for board (merger). Additionally vacate notice for unauthorized construction in rented house (possession)", "areas": ["corporate", "property"]}
+{"query": "Article 19 violation by local authority during seizure (fundamental rights)", "areas": ["constitutional"]}
+{"query": "Police arrested my friend without warrant at night (bail)", "areas": ["criminal"]}
+{"query": "Protection under dowry harassment and evidence collection (alimony)", "areas": ["family"]}
+{"query": "Police arrested my friend without proper grounds at night. Meanwhile child support dispute with spouse", "areas": ["criminal", "family"]}
+{"query": "Merger and shareholder rights review for board (GST). Also need help with vacate notice for non payment of rent in rented house (rent)", "areas": ["corporate", "property"]}
+{"query": "Child support dispute with spouse. Also need help with damages for services without written agreement", "areas": ["civil", "family"]}
+{"query": "Police detained my brother without proper grounds at night (arrest)", "areas": ["criminal"]}
+{"query": "Dispute over land sale deed and mutation entry (encroachment)", "areas": ["property"]}
+{"query": "Temporary injunction to stop trespass by neighbour. Meanwhile protection under dowry harassment and evidence collection", "areas": ["civil", "family"]}
+{"query": "Merger and compliance review for board (IPO)", "areas": ["corporate"]}
+{"query": "Police arrested my son without warrant at night (FIR)", "areas": ["criminal"]}
+{"query": "Police detained my son without warrant at night (IPC 420)", "areas": ["criminal"]}
+{"query": "Need regular bail for IPC 406 (warrant). Also need help with maintenance claim after separation, need legal process (498a)", "areas": ["criminal", "family"]}
+{"query": "Police arrested my friend without proper grounds at night", "areas": ["criminal"]}
+{"query": "Child custody dispute with in-laws (dowry). Additionally recovery of money for loan without written agreement", "areas": ["civil", "family"]}
+{"query": "Stay order to stop construction by neighbour. Also need help with article 14 violation by local authority during seizure", "areas": ["civil", "constitutional"]}
+{"query": "Police arrested my husband without warrant at night. Additionally child custody dispute with spouse (domestic violence)", "areas": ["criminal", "family"]}
+{"query": "Child custody dispute with spouse (maintenance)", "areas": ["family"]}
+{"query": "Need anticipatory bail for IPC 420 (theft). Additionally suit for specific performance in civil court", "areas": ["civil", "criminal"]}
+{"query": "Injunction to stop encroachment on boundary (encroachment)", "areas": ["property"]}
+{"query": "Need regular bail for 498A (assault)", "areas": ["criminal"]}
+{"query": "Vacate notice for unauthorized construction in rented house (title)", "areas": ["property"]}
+{"query": "Child custody dispute with in-laws", "areas": ["family"]}
+{"query": "Article 14 violation by local authority during seizure", "areas": ["constitutional"]}
+{"query": "Protection under dowry harassment and evidence collection. Meanwhile high court writ of mandamus for suspension matter", "areas": ["constitutional", "family"]}
+{"query": "Seek certiorari against government illegal order (High Court). Also need help with injunction to stop encroachment on boundary (tenancy)", "areas": ["constitutional", "property"]}
+{"query": "Defense for IPC 406 allegation in neighbour fight (warrant)", "areas": ["criminal"]}
+{"query": "Protection under dowry harassment and evidence collection. Additionally dispute over property documents and revenue entry (sale deed)", "areas": ["family", "property"]}
+{"query": "High Court certiorari for suspension matter. Plus maintenance claim after separation, need legal process (custody)", "areas": ["constitutional", "family"]}
+{"query": "Article 14 violation by local authority during seizure (High Court)", "areas": ["constitutional"]}
+{"query": "Eviction notice for non payment of rent in rented house (rent)", "areas": ["property"]}
+{"query": "High Court writ of mandamus for transfer matter (Article 14). Also need help with police arrested my son without warrant at night (warrant)", "areas": ["constitutional", "criminal"]}
+{"query": "Dispute over land sale deed and revenue entry (sale deed)", "areas": ["property"]}
+{"query": "Child custody dispute with spouse. Plus high court writ of mandamus for transfer matter", "areas": ["constitutional", "family"]}
+{"query": "Injunction to stop illegal construction on boundary (mutation)", "areas": ["property"]}
+{"query": "Need regular bail for IPC 406 (remand)", "areas": ["criminal"]}
+{"query": "Companies Act penalty challenge and representation (IPO). Additionally temporary injunction to stop construction by neighbour (decree)", "areas": ["civil", "corporate"]}
+{"query": "High Court certiorari for promotion denial matter (writ)", "areas": ["constitutional"]}
+{"query": "Injunction to stop illegal construction on boundary (rent)", "areas": ["property"]}
+{"query": "Temporary injunction to stop trespass by neighbour (decree)", "areas": ["civil"]}
+{"query": "Seek certiorari against government inaction (RTI)", "areas": ["constitutional"]}
+{"query": "High Court writ of mandamus for transfer matter (Article 14). Additionally stay order to stop construction by neighbour", "areas": ["civil", "constitutional"]}
+{"query": "Merger and shareholder rights review for board. Also need help with damages for loan without written agreement (plaint)", "areas": ["civil", "corporate"]}
+{"query": "Seek habeas corpus against government delay. Also need help with injunction to stop illegal construction on boundary (title)", "areas": ["constitutional", "property"]}
+{"query": "Defense for 498A allegation in family matter (498A)", "areas": ["criminal"]}
+{"query": "Protection under domestic violence act and evidence collection (maintenance). Plus article 14 violation by local authority during curfew", "areas": ["constitutional", "family"]}
+{"query": "Article 14 violation by local authority during protest (habeas corpus). Meanwhile recovery of money for loan without written agreement (money recovery)", "areas": ["civil", "constitutional"]}
+{"query": "Merger and compliance review for board (director)", "areas": ["corporate"]}
+{"query": "Police arrested my brother without proper grounds at night", "areas": ["criminal"]}
+{"query": "Suit for defamation in civil court. Additionally protection under domestic violence act and evidence collection", "areas": ["civil", "family"]}
+{"query": "Merger and shareholder rights review for board (GST). Also need help with stay order to stop construction by neighbour (contract breach)", "areas": ["civil", "corporate"]}
+{"query": "Suit for defamation in civil court (injunction). Also need help with vacate notice for non payment of rent in rented house", "areas": ["civil", "property"]}
+{"query": "High Court certiorari for transfer matter (High Court). Additionally draft founders agreement for startup esop plan (term sheet)", "areas": ["constitutional", "corporate"]}
+{"query": "Plaint for specific performance in civil court. Also need help with defense for ipc 406 allegation in business dispute", "areas": ["civil", "criminal"]}
+{"query": "High Court habeas corpus for promotion denial matter. Plus vacate notice for unauthorized construction in rented house (mutation)", "areas": ["constitutional", "property"]}
+{"query": "File warrant refusal by police, next steps (custody)", "areas": ["criminal"]}
+{"query": "High Court certiorari for promotion denial matter (High Court)", "areas": ["constitutional"]}
+{"query": "Police arrested my brother without warrant at night", "areas": ["criminal"]}
+{"query": "Injunction to stop encroachment on boundary (title). Additionally acquisition and shareholder rights review for board", "areas": ["corporate", "property"]}
+{"query": "Draft founders agreement for startup investment (term sheet)", "areas": ["corporate"]}
+{"query": "High Court certiorari for transfer matter (Supreme Court). Meanwhile stay order to stop trespass by neighbour (damages)", "areas": ["civil", "constitutional"]}
+{"query": "Seek writ of mandamus against government delay. Meanwhile acquisition and compliance review for board", "areas": ["constitutional", "corporate"]}
+{"query": "Merger and shareholder rights review for board (director)", "areas": ["corporate"]}
+{"query": "Companies Act penalty challenge and representation (arbitration). Additionally child support dispute with spouse (maintenance)", "areas": ["corporate", "family"]}
+{"query": "High Court writ of mandamus for promotion denial matter. Also need help with alimony after separation, need legal process", "areas": ["constitutional", "family"]}
+{"query": "Acquisition and compliance review for board. Also need help with injunction to stop encroachment on boundary", "areas": ["corporate", "property"]}
+{"query": "Defense for 498A allegation in family matter", "areas": ["criminal"]}
+{"query": "Acquisition and shareholder rights review for board (IPO)", "areas": ["corporate"]}
+{"query": "Child support dispute with in-laws (divorce)", "areas": ["family"]}
+{"query": "Mutual consent divorce after separation, need legal process (maintenance)", "areas": ["family"]}
+{"query": "Dispute over land sale deed and revenue entry (eviction)", "areas": ["property"]}
+{"query": "High Court habeas corpus for transfer matter (fundamental rights)", "areas": ["constitutional"]}
+{"query": "Need anticipatory bail for 498A. Plus protection under domestic violence act and evidence collection", "areas": ["criminal", "family"]}
+{"query": "Injunction to stop illegal construction on boundary (possession)", "areas": ["property"]}
+{"query": "Article 21 violation by local authority during protest. Meanwhile damages for services without written agreement", "areas": ["civil", "constitutional"]}
+{"query": "Seek habeas corpus against government delay. Plus dispute over land sale deed and mutation entry", "areas": ["constitutional", "property"]}
+{"query": "Seek certiorari against government inaction. Also need help with vacate notice for unauthorized construction in rented house (lease)", "areas": ["constitutional", "property"]}
+{"query": "Protection under dowry harassment and evidence collection (divorce)", "areas": ["family"]}
+{"query": "Police detained my friend without proper grounds at night (remand)", "areas": ["criminal"]}
+{"query": "Article 21 violation by local authority during curfew. Additionally alimony after separation, need legal process (custody)", "areas": ["constitutional", "family"]}
+{"query": "Merger and compliance review for board (arbitration)", "areas": ["corporate"]}
+{"query": "Child custody dispute with spouse (guardianship)", "areas": ["family"]}
+{"query": "Plaint for defamation in civil court. Also need help with article 19 violation by local authority during protest (article 14)", "areas": ["civil", "constitutional"]}
+{"query": "Companies Act penalty challenge and representation. Plus dispute over land sale deed and mutation entry", "areas": ["corporate", "property"]}
+{"query": "Child custody dispute with spouse. Also need help with file proper grounds refusal by police, next steps (warrant)", "areas": ["criminal", "family"]}
+{"query": "Seek habeas corpus against government inaction (Supreme Court). Meanwhile child support dispute with spouse (alimony)", "areas": ["constitutional", "family"]}
+{"query": "High Court certiorari for transfer matter (mandamus)", "areas": ["constitutional"]}
+{"query": "Article 14 violation by local authority during protest (Article 14)", "areas": ["constitutional"]}
+{"query": "Recovery of money for loan without written agreement (money recovery)", "areas": ["civil"]}
+{"query": "Need regular bail for IPC 420. Plus dispute over property documents and mutation entry", "areas": ["criminal", "property"]}
+{"query": "Dispute over land sale deed and revenue entry (title)", "areas": ["property"]}
+{"query": "Acquisition and compliance review for board (shareholder)", "areas": ["corporate"]}
+{"query": "Article 19 violation by local authority during protest. Meanwhile alimony after separation, need legal process (divorce)", "areas": ["constitutional", "family"]}
+{"query": "Temporary injunction to stop trespass by neighbour (plaint)", "areas": ["civil"]}
+{"query": "Eviction notice for non payment of rent in rented house. Meanwhile police detained my son without proper grounds at night (ipc 420)", "areas": ["criminal", "property"]}
+{"query": "Child custody dispute with in-laws. Meanwhile need regular bail for ipc 420", "areas": ["criminal", "family"]}
+{"query": "Article 14 violation by local authority during seizure (fundamental rights). Plus file proper grounds refusal by police, next steps (arrest)", "areas": ["constitutional", "criminal"]}
+{"query": "Dispute over property documents and revenue entry (rent). Meanwhile merger and compliance review for board (merger)", "areas": ["corporate", "property"]}
+{"query": "Merger and compliance review for board (ESOP). Additionally dispute over property documents and mutation entry (possession)", "areas": ["corporate", "property"]}
+{"query": "Eviction notice for non payment of rent in rented house (mutation). Plus protection under domestic violence act and evidence collection", "areas": ["family", "property"]}
+{"query": "Recovery of money for loan without written agreement (injunction)", "areas": ["civil"]}
+{"query": "Vacate notice for unauthorized construction in rented house (tenancy). Additionally seek habeas corpus against government illegal order", "areas": ["constitutional", "property"]}
+{"query": "Seek writ of mandamus against government delay. Meanwhile police arrested my brother without proper grounds at night", "areas": ["constitutional", "criminal"]}
+{"query": "Companies Act penalty challenge and representation (term sheet). Additionally seek writ of mandamus against government illegal order", "areas": ["constitutional", "corporate"]}
+{"query": "Injunction to stop encroachment on boundary (eviction). Also need help with mutual consent divorce after separation, need legal process", "areas": ["family", "property"]}
+{"query": "Recovery of money for services without written agreement (plaint). Also need help with eviction notice for unauthorized construction in rented house", "areas": ["civil", "property"]}
+{"query": "Police arrested my brother without proper grounds at night. Meanwhile plaint for specific performance in civil court (decree)", "areas": ["civil", "criminal"]}
+{"query": "Draft shareholders agreement for startup investment. Plus protection under domestic violence act and evidence collection", "areas": ["corporate", "family"]}
+{"query": "Need anticipatory bail for IPC 420 (arrest)", "areas": ["criminal"]}
+{"query": "Police detained my brother without warrant at night", "areas": ["criminal"]}
+{"query": "Temporary injunction to stop trespass by neighbour (injunction)", "areas": ["civil"]}
+{"query": "Plaint for specific performance in civil court (contract breach). Also need help with draft founders agreement for startup investment (esop)", "areas": ["civil", "corporate"]}
+{"query": "Need regular bail for IPC 420 (FIR). Meanwhile protection under dowry harassment and evidence collection", "areas": ["criminal", "family"]}
+{"query": "Alimony after separation, need legal process. Meanwhile high court habeas corpus for transfer matter", "areas": ["constitutional", "family"]}
+{"query": "Dispute over property documents and revenue entry (title). Plus article 19 violation by local authority during protest (fundamental rights)", "areas": ["constitutional", "property"]}
+{"query": "Draft founders agreement for startup investment. Meanwhile police detained my son without proper grounds at night (money laundering)", "areas": ["corporate", "criminal"]}
+{"query": "Protection under domestic violence act and evidence collection (custody). Plus article 19 violation by local authority during seizure", "areas": ["constitutional", "family"]}
+{"query": "Defense for IPC 420 allegation in neighbour fight (IPC 420)", "areas": ["criminal"]}
+{"query": "Need anticipatory bail for 498A (theft)", "areas": ["criminal"]}
+{"query": "GST penalty challenge and representation. Meanwhile police detained my husband without proper grounds at night", "areas": ["corporate", "criminal"]}
+{"query": "Alimony after separation, need legal process. Plus merger and compliance review for board (director)", "areas": ["corporate", "family"]}
+{"query": "Article 14 violation by local authority during seizure. Plus file warrant refusal by police, next steps (chargesheet)", "areas": ["constitutional", "criminal"]}
+{"query": "Eviction notice for unauthorized construction in rented house (encroachment)", "areas": ["property"]}
+{"query": "Child custody dispute with spouse (498A)", "areas": ["family"]}
+{"query": "Stay order to stop construction by neighbour (injunction). Also need help with high court habeas corpus for promotion denial matter", "areas": ["civil", "constitutional"]}
+{"query": "Defense for 498A allegation in business dispute. Also need help with high court habeas corpus for promotion denial matter (supreme court)", "areas": ["constitutional", "criminal"]}
+{"query": "Damages for services without written agreement. Meanwhile draft founders agreement for startup esop plan", "areas": ["civil", "corporate"]}
+{"query": "Child support dispute with in-laws (domestic violence)", "areas": ["family"]}
+{"query": "File proper grounds refusal by police, next steps (theft)", "areas": ["criminal"]}
+{"query": "Defense for IPC 420 allegation in family matter. Plus article 21 violation by local authority during protest (mandamus)", "areas": ["constitutional", "criminal"]}
+{"query": "Draft founders agreement for startup ESOP plan. Also need help with stay order to stop trespass by neighbour", "areas": ["civil", "corporate"]}
+{"query": "Need anticipatory bail for IPC 420 (arrest). Also need help with article 14 violation by local authority during protest (habeas corpus)", "areas": ["constitutional", "criminal"]}
+{"query": "Article 19 violation by local authority during curfew (mandamus). Additionally gst penalty challenge and representation", "areas": ["constitutional", "corporate"]}
+{"query": "Need regular bail for IPC 406 (custody)", "areas": ["criminal"]}
+{"query": "Plaint for defamation in civil court (money recovery)", "areas": ["civil"]}
+{"query": "Police arrested my friend without warrant at night. Also need help with temporary injunction to stop construction by neighbour (damages)", "areas": ["civil", "criminal"]}
+{"query": "Plaint for defamation in civil court (contract breach)", "areas": ["civil"]}
+{"query": "Child support dispute with spouse. Additionally injunction to stop illegal construction on boundary (rent)", "areas": ["family", "property"]}
+{"query": "Injunction to stop illegal construction on boundary (tenancy). Also need help with temporary injunction to stop trespass by neighbour (damages)", "areas": ["civil", "property"]}
+{"query": "Seek certiorari against government delay. Plus protection under domestic violence act and evidence collection", "areas": ["constitutional", "family"]}
+{"query": "File warrant refusal by police, next steps (assault)", "areas": ["criminal"]}
+{"query": "Stay order to stop construction by neighbour. Additionally police detained my friend without proper grounds at night", "areas": ["civil", "criminal"]}
+{"query": "Draft founders agreement for startup ESOP plan. Meanwhile recovery of money for services without written agreement (damages)", "areas": ["civil", "corporate"]}
+{"query": "Seek certiorari against government inaction. Plus suit for specific performance in civil court (plaint)", "areas": ["civil", "constitutional"]}
+{"query": "Police arrested my husband without warrant at night", "areas": ["criminal"]}
+{"query": "High Court habeas corpus for suspension matter (Article 19). Additionally vacate notice for unauthorized construction in rented house (encroachment)", "areas": ["constitutional", "property"]}
+{"query": "Draft shareholders agreement for startup investment. Also need help with high court habeas corpus for promotion denial matter", "areas": ["constitutional", "corporate"]}
+{"query": "Dispute over land sale deed and mutation entry. Additionally plaint for defamation in civil court", "areas": ["civil", "property"]}
+{"query": "Protection under domestic violence act and evidence collection. Meanwhile gst penalty challenge and representation", "areas": ["corporate", "family"]}
+{"query": "Seek habeas corpus against government delay. Also need help with recovery of money for services without written agreement", "areas": ["civil", "constitutional"]}
+{"query": "Companies Act penalty challenge and representation (shareholder)", "areas": ["corporate"]}
+{"query": "Dispute over land sale deed and mutation entry (sale deed)", "areas": ["property"]}
+{"query": "Acquisition and compliance review for board. Meanwhile alimony after separation, need legal process", "areas": ["corporate", "family"]}
+{"query": "Defense for IPC 406 allegation in neighbour fight (theft). Additionally high court habeas corpus for transfer matter (mandamus)", "areas": ["constitutional", "criminal"]}
+{"query": "Injunction to stop illegal construction on boundary (lease). Meanwhile draft founders agreement for startup investment (director)", "areas": ["corporate", "property"]}
+{"query": "Companies Act penalty challenge and representation (merger)", "areas": ["corporate"]}
+{"query": "High Court habeas corpus for transfer matter. Also need help with acquisition and compliance review for board", "areas": ["constitutional", "corporate"]}
+{"query": "Plaint for defamation in civil court (plaint). Also need help with high court certiorari for promotion denial matter (fundamental rights)", "areas": ["civil", "constitutional"]}
+{"query": "Defense for IPC 420 allegation in business dispute (IPC 406). Also need help with article 14 violation by local authority during seizure", "areas": ["constitutional", "criminal"]}
+{"query": "Temporary injunction to stop construction by neighbour (money recovery). Additionally maintenance claim after separation, need legal process", "areas": ["civil", "family"]}
+{"query": "Child support dispute with in-laws. Also need help with police arrested my husband without warrant at night", "areas": ["criminal", "family"]}
+{"query": "Merger and compliance review for board. Meanwhile alimony after separation, need legal process (maintenance)", "areas": ["corporate", "family"]}
+{"query": "High Court writ of mandamus for promotion denial matter (habeas corpus)", "areas": ["constitutional"]}
+{"query": "Companies Act penalty challenge and representation (ESOP)", "areas": ["corporate"]}
+{"query": "GST penalty challenge and representation. Also need help with defense for ipc 420 allegation in family matter (ipc 420)", "areas": ["corporate", "criminal"]}
+{"query": "Stay order to stop trespass by neighbour (contract breach)", "areas": ["civil"]}
+{"query": "Temporary injunction to stop construction by neighbour. Meanwhile vacate notice for unauthorized construction in rented house (tenancy)", "areas": ["civil", "property"]}
+{"query": "Article 21 violation by local authority during protest (mandamus)", "areas": ["constitutional"]}
+{"query": "Need anticipatory bail for 498A. Additionally damages for services without written agreement", "areas": ["civil", "criminal"]}
+{"query": "Injunction to stop encroachment on boundary (sale deed)", "areas": ["property"]}
+{"query": "Draft shareholders agreement for startup investment (term sheet)", "areas": ["corporate"]}
+{"query": "Plaint for specific performance in civil court. Additionally child support dispute with in-laws (dowry)", "areas": ["civil", "family"]}
+{"query": "Damages for loan without written agreement (injunction)", "areas": ["civil"]}
+{"query": "Seek certiorari against government inaction (High Court)", "areas": ["constitutional"]}
+{"query": "Draft founders agreement for startup investment (compliance). Meanwhile protection under dowry harassment and evidence collection", "areas": ["corporate", "family"]}
+{"query": "Need anticipatory bail for IPC 420. Additionally merger and shareholder rights review for board (director)", "areas": ["corporate", "criminal"]}
+{"query": "High Court writ of mandamus for transfer matter. Meanwhile protection under domestic violence act and evidence collection (dowry)", "areas": ["constitutional", "family"]}
+{"query": "Alimony after separation, need legal process (divorce). Plus dispute over property documents and revenue entry (eviction)", "areas": ["family", "property"]}
+{"query": "Police detained my son without proper grounds at night", "areas": ["criminal"]}
+{"query": "File warrant refusal by police, next steps. Additionally temporary injunction to stop trespass by neighbour", "areas": ["civil", "criminal"]}
+{"query": "Police arrested my friend without proper grounds at night (police)", "areas": ["criminal"]}
+{"query": "File warrant refusal by police, next steps. Additionally seek certiorari against government delay (article 19)", "areas": ["constitutional", "criminal"]}
+{"query": "Suit for defamation in civil court (money recovery)", "areas": ["civil"]}
+{"query": "Need regular bail for IPC 420 (warrant)", "areas": ["criminal"]}
+{"query": "GST penalty challenge and representation. Plus injunction to stop encroachment on boundary (title)", "areas": ["corporate", "property"]}
+{"query": "Article 14 violation by local authority during protest (habeas corpus)", "areas": ["constitutional"]}
+{"query": "Need regular bail for IPC 406. Meanwhile injunction to stop illegal construction on boundary (title)", "areas": ["criminal", "property"]}
+{"query": "Child support dispute with in-laws. Also need help with injunction to stop illegal construction on boundary (rent)", "areas": ["family", "property"]}
+{"query": "Dispute over land sale deed and mutation entry (lease)", "areas": ["property"]}
+{"query": "Injunction to stop illegal construction on boundary (tenancy)", "areas": ["property"]}
+{"query": "Dispute over land sale deed and revenue entry (lease)", "areas": ["property"]}
+{"query": "Merger and shareholder rights review for board (term sheet). Also need help with alimony after separation, need legal process", "areas": ["corporate", "family"]}
+{"query": "Vacate notice for unauthorized construction in rented house (mutation)", "areas": ["property"]}
+{"query": "File proper grounds refusal by police, next steps (warrant). Also need help with gst penalty challenge and representation (arbitration)", "areas": ["corporate", "criminal"]}
+{"query": "Plaint for specific performance in civil court (contract breach)", "areas": ["civil"]}
+{"query": "Defense for IPC 420 allegation in business dispute (IPC 406)", "areas": ["criminal"]}
+{"query": "Damages for services without written agreement (decree). Additionally need regular bail for ipc 406 (cheating)", "areas": ["civil", "criminal"]}

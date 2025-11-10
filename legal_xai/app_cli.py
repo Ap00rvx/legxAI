@@ -6,6 +6,7 @@ from .data_loading import load_corpora
 from .retrieval import build_corpus_index, retrieve_top_k
 from .qa import batch_answer
 from .explain import explain_qa
+from .generation import synthesize_answer
 from .recommend import recommend_lawyers
 
 try:
@@ -36,10 +37,27 @@ def cmd_ask(args):
     if args.explain and answers:
         exp = explain_qa(args.question, answers[0]["passage"])
         answers[0]["explanation"] = exp
+    synth = None
+    if getattr(args, "synthesize", False):
+        try:
+            synth = synthesize_answer(args.question, passages, style="concise")
+        except Exception as e:
+            synth = {"text": f"Synthesis failed: {e}", "citations": [], "low_confidence": True}
     if getattr(args, "pretty", False) and _RICH_AVAILABLE:
         _print_colored_answers(args.question, answers)
+        if synth and (synth.get("text")):
+            from rich.console import Console
+            console = Console()
+            console.print("\n[bold cyan]Synthesized Answer[/]: " + (synth.get("text") or ""))
+            if synth.get("citations"):
+                console.print("[dim]Citations:[/] " + ", ".join(synth.get("citations")))
     else:
-        print(json.dumps({"question": args.question, "answers": answers}, indent=2))
+        out = {"question": args.question, "answers": answers}
+        if synth:
+            out["synthesized-answer"] = synth.get("text")
+            out["synthesized-citations"] = synth.get("citations")
+            out["synthesized-low-confidence"] = synth.get("low_confidence")
+        print(json.dumps(out, indent=2))
 
 
 def _is_valid_span(text: str) -> bool:
@@ -103,6 +121,7 @@ def main():
     ask.add_argument("question")
     ask.add_argument("--top-k", type=int, default=5)
     ask.add_argument("--explain", action="store_true", help="Add explanation for top answer")
+    ask.add_argument("--synthesize", action="store_true", help="Generate a grounded explanatory answer with citations")
     ask.add_argument("--pretty", action="store_true", help="Colorized output: top answer in yellow, others in white")
     ask.set_defaults(func=cmd_ask)
 

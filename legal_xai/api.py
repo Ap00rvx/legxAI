@@ -15,6 +15,8 @@ from .data_loading import load_corpora, infer_practice_areas
 from .retrieval import build_corpus_index, retrieve_top_k
 from .qa import batch_answer
 from .explain import explain_qa
+from .recommend import recommend_lawyers
+from .generation import synthesize_answer
 
 # Globals prepared at startup
 APP_INDEX_LIMIT = int(os.environ.get("LEGAL_XAI_INDEX_LIMIT", os.environ.get("API_INDEX_LIMIT", "200")))
@@ -366,6 +368,7 @@ async def ask(
     explain: bool = Query(False),
     stream: bool = Query(True),
     links: int = Query(5, ge=0, le=10),
+    synthesize: bool = Query(False, description="Return a synthesized explanatory answer with citations"),
 ):
     index = _init_index_once()
 
@@ -441,6 +444,14 @@ async def ask(
                 yield sse_format({"type": "explanation", "explanation": exp, "explaination-text": exp_text}).encode("utf-8")
             except Exception as e:
                 yield sse_format({"type": "explanation_error", "error": str(e)}).encode("utf-8")
+        # synthesis (optional)
+        synthesis_payload = None
+        if synthesize and passages:
+            try:
+                synthesis_payload = synthesize_answer(q, passages, style="concise")
+                yield sse_format({"type": "synthesis", "synthesized": synthesis_payload}).encode("utf-8")
+            except Exception as e:
+                yield sse_format({"type": "synthesis_error", "error": str(e)}).encode("utf-8")
         # final shaped payload
         top_answer = answers[0]["answer"] if answers else ""
         if not _is_valid_span(top_answer) and answers:
@@ -462,6 +473,10 @@ async def ask(
             "links": web,
             "related-topics": related,
             "related-questions": related_qs,
+            "synthesized-answer": synthesis_payload.get("text") if synthesis_payload else "",
+            "synthesized-citations": synthesis_payload.get("citations") if synthesis_payload else [],
+            "synthesized-low-confidence": synthesis_payload.get("low_confidence") if synthesis_payload else False,
+            "disclaimer": "This response is generated from retrieved legal context; not a substitute for professional legal advice.",
         }
         yield sse_format({"type": "final", "data": final_payload}).encode("utf-8")
         yield sse_format({"type": "done"}).encode("utf-8")
@@ -501,6 +516,12 @@ async def ask(
         }
         return JSONResponse(final_payload)
     answers = batch_answer(q, passages, top_n=top_k)
+    synthesis_payload = None
+    if synthesize and passages:
+        try:
+            synthesis_payload = synthesize_answer(q, passages, style="concise")
+        except Exception:
+            synthesis_payload = None
     answers = rerank_preferring_spans(answers)
     # web links: prefer test scraper if available
     web: List[Dict[str, str]] = []
@@ -540,14 +561,53 @@ async def ask(
     related_qs = suggest_related_questions(q, top_answer, areas)
     final_payload = {
         "top-answer": top_answer,
+         "synthesized-answer": synthesis_payload.get("text") if synthesis_payload else "",
         "explaination-text": exp_text,
         "links": web,
         "related-topics": related,
         "related-questions": related_qs,
+       
+        "synthesized-citations": synthesis_payload.get("citations") if synthesis_payload else [],
+        "synthesized-low-confidence": synthesis_payload.get("low_confidence") if synthesis_payload else False,
+        "disclaimer": "This response is generated from retrieved legal context; not a substitute for professional legal advice.",
     }
     return JSONResponse(final_payload)
 
 
+@app.get("/recommend")
+async def recommend(
+    q: str = Query(..., description="Query describing the legal situation"),
+    top_k: int = Query(3, ge=1, le=6),
+    areas_only: bool = Query(False, description="Return only area labels without keyword details"),
+):
+    """Recommend lawyer types / practice areas for a query.
+
+    Response shape:
+    {
+      "query": str,
+      "recommendations": [ {area,label,keywords,score,confidence} ],
+      "margin": float,
+      "clarification_needed": bool,
+      "clarifying-questions": [str],
+      "related-questions": [str]
+    }
+    """
+    result = recommend_lawyers(q, top_k=top_k)
+    recs = result.get("recommendations", [])
+    if areas_only:
+        recs = [{"area": r.get("area"), "label": r.get("label")} for r in recs]
+    areas = [r.get("area") for r in result.get("recommendations", [])]
+    related_qs = suggest_related_questions(q, "", [a for a in areas if a])
+    payload = {
+        "query": q,
+        "recommendations": recs,
+        "margin": result.get("margin", 0.0),
+        "clarification_needed": result.get("clarification_needed", False),
+        "clarifying-questions": result.get("clarifying_questions", []),
+        "related-questions": related_qs,
+    }
+    return JSONResponse(payload)
+
 @app.get("/")
 async def root():
-    return {"message": "Legal BERT XAI API. Use GET /ask?q=...&stream=true"}
+    return {"message": "Legal BERT XAI API. Use GET /ask?q=...&stream=true or /recommend?q=..."}

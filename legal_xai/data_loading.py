@@ -89,33 +89,67 @@ def load_corpora(limit: int | None = None) -> pd.DataFrame:
     return df
 
 LEGAL_PRACTICE_AREAS = {
-    "criminal": ["ipc", "crpc", "arrest", "penal", "offence", "trial", "imprisonment", "crime", "punishment"],
-    "constitutional": ["constitution", "fundamental right", "article 14", "article 19", "equality", "parliament"],
-    "family": ["divorce", "custody", "maintenance", "marriage"],
-    "property": ["property", "land", "sale deed", "possession", "title"],
-    "corporate": ["company", "shareholder", "director", "merger", "corporate"],
-    "civil": ["civil", "plaint", "injunction", "suit", "damages"],
+    # Expanded keywords and common variants to improve hit rate
+    "criminal": [
+        "ipc", "crpc", "arrest", "arrested", "warrant", "police", "custody", "remand",
+        "penal", "offence", "offense", "trial", "imprisonment", "crime", "punishment",
+        "bail", "fir", "charge", "chargesheet", "investigation", "assault", "theft",
+        "498a", "420"
+    ],
+    "constitutional": [
+        "constitution", "fundamental right", "fundamental rights", "article 14", "article 19",
+        "article ", "equality", "parliament", "writ", "habeas", "mandamus", "supreme court", "high court"
+    ],
+    "family": [
+        "divorce", "custody", "maintenance", "marriage", "alimony", "domestic violence",
+        "dowry", "498a", "guardianship"
+    ],
+    "property": [
+        "property", "land", "sale deed", "possession", "title", "encroachment", "mutation",
+        "eviction", "lease", "tenancy", "rent"
+    ],
+    "corporate": [
+        "company", "shareholder", "director", "merger", "corporate", "contract", "mou",
+        "compliance", "ipo", "esop"
+    ],
+    "civil": ["civil", "plaint", "injunction", "suit", "damages", "decree"],
 }
 
 _area_pattern_cache: Dict[str, re.Pattern] = {}
 for area, kws in LEGAL_PRACTICE_AREAS.items():
-    pattern = r"(" + r"|".join(re.escape(k) for k in kws) + r")"
+    toks = []
+    for k in kws:
+        k_esc = re.escape(k)
+        # Add word boundaries for very short tokens to avoid false positives (e.g., 'fir' in 'first')
+        if len(k) <= 3 or k.lower() in {"fir", "ipc", "crpc", "act", "sc", "hc"}:
+            toks.append(r"\b" + k_esc + r"\b")
+        else:
+            toks.append(k_esc)
+    pattern = r"(" + r"|".join(toks) + r")"
     _area_pattern_cache[area] = re.compile(pattern, re.IGNORECASE)
 
 
 def infer_practice_areas(text: str) -> List[str]:
-    """Infer candidate practice areas from a query string (rule-based)."""
-    hits = []
+    """Infer candidate practice areas from a query string (rule-based).
+
+    Returns ordered unique areas based on regex hits; falls back to a guess if none matched.
+    """
+    hits: List[str] = []
     for area, pat in _area_pattern_cache.items():
-        if pat.search(text):
+        if pat.search(text or ""):
             hits.append(area)
+    # Deduplicate while preserving order
+    seen = set()
+    hits = [h for h in hits if not (h in seen or seen.add(h))]
     # fallback classification if none matched
     if not hits:
-        # heuristic: length-based guess
-        if len(text) < 120:
-            hits.append("civil")
-        else:
+        # If query contains generic legal cues, default to constitutional else civil
+        t = (text or "").lower()
+        generic_legal = ["law", "legal", "court", "judge", "act", "section", "article", "petition", "writ"]
+        if any(g in t for g in generic_legal):
             hits.append("constitutional")
+        else:
+            hits.append("civil")
     return hits
 
 __all__ = ["load_corpora", "infer_practice_areas", "LEGAL_PRACTICE_AREAS"]
