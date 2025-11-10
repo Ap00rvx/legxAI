@@ -448,7 +448,7 @@ async def ask(
         synthesis_payload = None
         if synthesize and passages:
             try:
-                synthesis_payload = synthesize_answer(q, passages, style="concise")
+                synthesis_payload = synthesize_answer(q, passages, style="detailed")
                 yield sse_format({"type": "synthesis", "synthesized": synthesis_payload}).encode("utf-8")
             except Exception as e:
                 yield sse_format({"type": "synthesis_error", "error": str(e)}).encode("utf-8")
@@ -519,7 +519,7 @@ async def ask(
     synthesis_payload = None
     if synthesize and passages:
         try:
-            synthesis_payload = synthesize_answer(q, passages, style="concise")
+            synthesis_payload = synthesize_answer(q, passages, style="detailed")
         except Exception:
             synthesis_payload = None
     answers = rerank_preferring_spans(answers)

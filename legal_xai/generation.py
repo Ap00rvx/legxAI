@@ -23,10 +23,20 @@ def prepare_prompt(question: str, passages: List[Dict[str, Any]], style: str = "
         pid = f"P{i}"
         txt = _trim(p.get("text", ""))
         numbered.append((pid, txt))
+    # Determine style guidance dynamically
+    env_style = os.getenv("GEN_STYLE") or style
+    norm_style = (env_style or "concise").lower()
+    if norm_style == "detailed":
+        guidance = "Provide a detailed answer (6-12 sentences: definition, scope, key principles, procedural aspects, exceptions, concluding clarification)."
+    elif norm_style == "bullet":
+        guidance = "Answer using bullet points: definition; key elements; procedure; exceptions; practical considerations. 6-10 bullets."  
+    else:
+        guidance = "Provide a concise answer (3-6 sentences)."
     inst = [
         "You are an Indian legal assistant.",
-        f"Style: {style} answer in 3-6 sentences.",
+        guidance,
         "Cite sources using their bracket ids like [P1] [P2].",
+        "Start with a direct answer sentence before elaboration.",
         "Only use provided passages; if insufficient, say you need more details.",
         "Avoid hallucinating Articles or Sections not present in passages.",
     ]
@@ -42,12 +52,14 @@ def _extract_citations(text: str) -> List[str]:
     return sorted(set(found), key=lambda x: int(x[1:]))
 
 
-def synthesize_answer(question: str, passages: List[Dict[str, Any]], style: str = "concise", model_name: str | None = None, max_new_tokens: int = 256) -> Dict[str, Any]:
+def synthesize_answer(question: str, passages: List[Dict[str, Any]], style: str = "detailed", model_name: str | None = None, max_new_tokens: int = 512) -> Dict[str, Any]:
     comp = get_generation_model(model_name or DEFAULT_GEN_MODEL)
     if comp is None:
         return {"text": "Synthesis model unavailable.", "citations": [], "low_confidence": True}
     tok, model = comp
-    prompt, numbered = prepare_prompt(question, passages, style=style)
+    # For longer answers, adjust style instruction
+    style_instruction = style or "detailed"
+    prompt, numbered = prepare_prompt(question, passages, style=style_instruction)
     inputs = tok(prompt, return_tensors="pt", truncation=True, max_length=1024)
     with torch.no_grad():
         gen_ids = model.generate(
@@ -55,7 +67,9 @@ def synthesize_answer(question: str, passages: List[Dict[str, Any]], style: str 
             max_new_tokens=max_new_tokens,
             temperature=float(os.getenv("GEN_TEMPERATURE", "0.7")),
             top_p=float(os.getenv("GEN_TOP_P", "0.9")),
-            do_sample=True,
+            num_beams=int(os.getenv("GEN_BEAMS", "1")),
+            do_sample=os.getenv("GEN_DO_SAMPLE", "1") in ("1","true","True"),
+            length_penalty=float(os.getenv("GEN_LENGTH_PENALTY", "1.0")),
         )
     text = tok.decode(gen_ids[0], skip_special_tokens=True).strip()
     # Remove potential duplicated prompt echoes
@@ -65,8 +79,9 @@ def synthesize_answer(question: str, passages: List[Dict[str, Any]], style: str 
     # Build citation mapping
     id_to_passage = {pid: txt for pid, txt in numbered}
     cited_texts = [{"id": cid, "text": id_to_passage.get(cid, "")} for cid in citations]
-    # Simple confidence heuristic: require at least 1 citation
-    low_conf = len(citations) == 0
+    # Confidence heuristic: require at least 1 citation and length threshold
+    alpha_len = len(re.sub(r"[^A-Za-z]", "", text))
+    low_conf = len(citations) == 0 or alpha_len < 80
     return {
         "text": text,
         "citations": citations,
